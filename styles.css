@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+body {
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+
+  background-color: #ff0063;
+}
+
+.container {
+  max-width: 400px;
+}
+
+.container h1 {
+  color: white;
+  font-family: "Pacifico", cursive;
+}
+label {
+  color: white;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+.card {
+  background-color: #9cb4cc;
+  color: #6b6c7c;
+  color: whitesmoke;
+}
+
+.weather-condition {
+  font-family: "Dancing Script", cursive;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+.city-name {
+  font-weight: bold;
+}
