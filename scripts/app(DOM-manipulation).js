@@ -27,7 +27,9 @@ const updateUI = (data) => {
   // update night and day images..
 
   // checking if it's daytime or not
-  let imageSrc = weather[0].IsDayTime ? "Images/day.svg" : "Images/night.svg";
+  let imageSrc = weather[0].IsDayTime
+    ? "Images/blue-sky.jpg"
+    : "Images/night-sky.jpg";
 
   // setting the source of the image to imageSrc
   time.setAttribute("src", imageSrc);
